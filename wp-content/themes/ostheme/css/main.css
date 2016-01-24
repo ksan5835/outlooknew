@@ -31,13 +31,13 @@ background-color: transparent;
 text-decoration: none;
 }
 #top-header .navbar-nav > li > a:hover {
-  color: #51BBE5;
+  color: #f48120;
 }
 .main-nav ul .active a {
-  color: #51BBE5;
+  color: #f48120;
 }
 #top-header .affix .main-nav .navbar-nav > li.active > a {
-    color: #51BBE5;
+    color: #f48120;
 }
 .bar-button {
   color: #fff;
@@ -77,12 +77,12 @@ text-decoration: none;
 
 .portfolio-filter li.active {
   
-  background: #51BBE5;
+  background: #f48120;
   color: #fff;
 }
 .portfolio-filter li:hover {
   color: #fff;
-  background: #51BBE5;
+  background: #f48120;
 }
 #hero-unit {
   color: #ffffff;
@@ -146,7 +146,7 @@ text-decoration: none;
   width: 40px;
   height: 80px;
   color: #fff;
-  background: #41A8D0;
+  background: #f48120;
   z-index: 10;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
@@ -177,8 +177,8 @@ text-decoration: none;
 #hero-unit .carousel .carousel-indicators li.active {
   width: 20px;
   margin: 0 3px;
-  background:  #51BBE5;
-  border: 1px solid  #51BBE5;
+  background:  #f48120;
+  border: 1px solid  #f48120;
 }
 .animate-delay-1 {
   animation-delay: .7s;
@@ -225,7 +225,7 @@ text-decoration: none;
   padding:100px 0;
 }
 #about:before {
-  background:linear-gradient(rgba(27,30,39,0.9),rgba(27,30,39,0.9));
+  background:linear-gradient(rgba(27,30,39,0.7),rgba(27,30,39,0.5));
   position: absolute;
   width: 100%;
   height: 100%;
@@ -462,7 +462,7 @@ img {
   display: inline-block;
   position: relative;
   padding: 10px 18px;
-  border: 1px solid #51BBE5;
+  border: 1px solid #f48120;
   -webkit-transition: .7s all;
   -moz-transition: .7s all;
   -ms-transition: .7s all;
@@ -741,7 +741,7 @@ img {
   margin: 0 5px;
 }
 .testimonial .owl-controls .owl-page.active span {
-  background: #51BBE5; 
+  background: #f48120; 
 }
 
 
@@ -958,7 +958,7 @@ img {
   border:0;
   width: 80px;
   float: right;
-  background: #51BBE5;
+  background: #f48120;
 }
 #contact .form-horizontal {
   margin-top: 30px;
@@ -1349,7 +1349,7 @@ img {
 }
 
 #hero-unit .carousel .carousel-caption>p {
-  color: #939eb4;
+  color: #fff;
 }
 
 #hero-unit .carousel .carousel-caption {

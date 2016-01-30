@@ -1,30 +1,30 @@
 .span,
 .span_large {
-  background: #f48120;
+  background: #ff3e33;
 }
 .nav-3d li a span {
-  background: #f48120;
+  background: #ff3e33;
 }
 .nav-3d li a :before {
-  color: #f48120;
+  color: #ff3e33;
 }
 .portfolio-filter li span {
-  background: #f48120;
+  background: #ff3e33;
   border: 1px solid transparent;
 }
 .portfolio-filter .active span {
   background: #ffffff;
-  color: #f48120;
-  border: 1px solid #f48120;
+  color: #ff3e33;
+  border: 1px solid #ff3e33;
 }
 .portfolio-filter li :before {
-  color: #f48120;
+  color: #ff3e33;
 }
 .main-nav ul .active a > span {
-  color: #f48120;
+  color: #ff3e33;
 }
 #top-header .affix {
-  background: rgba(255,255,255,.9);
+  background: rgba(0,0,0,.8);
   box-shadow: 0 1px 1px rgba(6,8,8,.1),0 3px 10px rgba(6,8,9,.1);
   -o-box-shadow: 0 1px 1px rgba(6,8,8,.1),0 3px 10px rgba(6,8,9,.1);
   -moz-box-shadow: 0 1px 1px rgba(6,8,8,.1),0 3px 10px rgba(6,8,9,.1);
@@ -34,34 +34,34 @@
 /*  background-color: rgba(48, 32, 76, 0.89);*/
 }
 #service .block:hover h4 {
-  color: #f48120;
+  color: #ff3e33;
 }
 #feature .nav-tabs > li.active {
-  border-color: #dedede #f48120 #dedede;
+  border-color: #dedede #ff3e33 #dedede;
 }
 #feature .nav-tabs .media i {
-  color: #f48120;
+  color: #ff3e33;
 }
 #feature .nav-tabs .media .media-body h4 {
-  color: #f48120;
+  color: #ff3e33;
 }
 #about .goals ul li i {
-  color: #f48120;
+  color: #ff3e33;
 }
 .owl-controls .owl-page.active span {
-  background: #f48120;
+  background: #ff3e33;
 }
 #team .thumbnail .caption h4 {
-  color: #f48120;
+  color: #ff3e33;
 }
 #team .thumbnail .caption .social-icon li a:hover {
-  background: #f48120;
-  border: 1px solid #f48120;
+  background: #ff3e33;
+  border: 1px solid #ff3e33;
 }
 #team .ih-item.circle.effect1 .spin {
   width: 230px;
   height: 230px;
-  border: 5px solid #f48120;
+  border: 5px solid #ff3e33;
   border-right-color: #dedede;
   border-bottom-color: #dedede;
   border-radius: 50%;
@@ -70,20 +70,20 @@
   transition: all 0.6s ease-in-out;
 }
 #portfolio .portfolio-container #da-thumbs li .portfolio-buttons a {
-  color: #f48120;
+  color: #ff3e33;
 }
 #portfolio .portfolio-container #da-thumbs li .portfolio-buttons a:hover {
-  background: #f48120;
+  background: #ff3e33;
 }
 #portfolio .da-thumbs li a div {
-  background: rgba(244, 129, 32, 0.8);
+  background: rgba(255, 62, 51, 0.8);
 }
 #pricing-table .block .item-box .btn-join {
-  background: #f48120;
+  background: #ff3e33;
 }
 #pricing-table .plan-1 .title {
-  background: #f48120;
-  border-bottom: 1px solid #4C356F;
+  background: #ff3e33;
+  border-bottom: 1px solid #ff3e33;
 }
 #pricing-table .plan-1 .price {
   background: #7856ab;
@@ -116,16 +116,16 @@
   background: #d15959;
 }
 #contact address ul li span i {
-  background: #f48120;
+  background: #ff3e33;
 }
 #contact .form-group .btn-default {
-  background: #f48120;
+  background: #ff3e33;
 }
 #footer {
-  background: #f48120;
+  background: #ff3e33;
 }
 .custom-icon:hover {
-  color: #f48120;
+  color: #ff3e33;
 }
 #blog-header:before {
   background-color: rgba(48, 32, 76, 0.89);
@@ -138,28 +138,28 @@
   transition: .2s all;
 }
 #blog-body .blog-item .item-text h1 a:hover {
-  color: #f48120;
+  color: #ff3e33;
 }
 #blog-body .blog-item .item-text .btn-blog {
-  background: #f48120;
+  background: #ff3e33;
 }
 #blog-body .blog-item .item-text .btn-blog:hover {
   background: #ffffff;
-  color: #f48120;
-  border: 1px solid #f48120;
+  color: #ff3e33;
+  border: 1px solid #ff3e33;
 }
 #blog-body .pagination > li .active {
-  background: #f48120;
+  background: #ff3e33;
 }
 #blog-footer .block .tags li a:hover {
-  background: #f48120;
+  background: #ff3e33;
 }
 .single-page .blog-item blockquote {
-  border-left: 3px solid #f48120;
+  border-left: 3px solid #ff3e33;
 }
 .single-page .comments .media .media-body .reply-button {
-  color: #f48120;
+  color: #ff3e33;
 }
 .single-page .comments .btn-submit {
-  background: #f48120;
+  background: #ff3e33;
 }

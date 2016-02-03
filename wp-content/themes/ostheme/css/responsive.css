@@ -74,6 +74,7 @@ px      68    160    252    */
   .navbar-toggle {
     margin-top: -15px;
     margin-bottom: 0;
+	border-radius:0px;
   }
   .affix .navbar-toggle {
     margin-top: 0px;

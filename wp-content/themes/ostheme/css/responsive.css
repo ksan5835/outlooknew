@@ -46,6 +46,15 @@ px      68    160    252    344    436    528    620    712    */
   #footer .social-icon li .fb {
     padding: 8px 20px;
   }
+  
+  #top-header .navbar-nav > li > a{}
+  
+  #top-header .row .navbar-default{ margin:0px;}
+  
+  
+  
+  
+  
 }
 /*		Mobile Layout: 320px.
 		Gutters: 24px.
@@ -55,6 +64,27 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3
 px      68    160    252    */
 @media only screen and (max-width: 767px) {
+
+
+
+
+#hero-unit .carousel .slider-1{/*background-image: url("http://localhost/outlooknew/wp-content/uploads/2016/02/caltech-slide1-1.jpg"); */}
+
+
+
+
+.navbar-nav {
+    margin: 12.5px -15px;
+}
+
+  #top-header .row .navbar-default{ margin:0px;}
+
+ #top-header .navbar-nav > li > a{background-color:#313131;
+text-decoration: none;
+border-bottom:1px solid #3f3f3f;}
+
+ #top-header .navbar-nav > li > a:hover{ background-color:#3f3f3f; transition: all 0.2s ease;}
+
   .row {
     padding: 50px 0px;
   }
@@ -72,9 +102,10 @@ px      68    160    252    */
     box-shadow: none;
   }
   .navbar-toggle {
-    margin-top: -15px;
+    margin-top: 8px;
     margin-bottom: 0;
 	border-radius:0px;
+	margin-right: 20px;
   }
   .affix .navbar-toggle {
     margin-top: 0px;

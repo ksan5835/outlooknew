@@ -11,7 +11,7 @@
 }
 .navbar-brand {
 
-  padding:0 15px;
+  padding:0 10px;
 }
 .navbar-nav > li {
   margin-right: 2px;
@@ -129,9 +129,17 @@ text-decoration: none;
 #hero-unit .carousel .slider-1, #hero-unit .carousel .slider-2, #hero-unit .carousel .slider-3 {
   background-repeat: no-repeat;
   background-color:  #654f80;
-  background-size: cover;
+  width: 100%;
+    background-size: 100% 100%;
   background-attachment: fixed;
+  background-position:center center;
+ 
 }
+
+
+
+/*#hero-unit .carousel .slider-1{ display:none; }*/
+
 
 #hero-unit .carousel .btn-started i {
   margin-left: 10px;

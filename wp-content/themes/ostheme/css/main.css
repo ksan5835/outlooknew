@@ -46,11 +46,13 @@ text-decoration: none;
   border: 1px solid #fff;
 }
 #top-header {
-  top: 10px;
-  position: absolute;
-  width: 100%;
-  z-index: 999;
-  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+    padding: 0 0 10px;
+    position: absolute;
+    text-transform: uppercase;
+   
+    width: 100%;
+    z-index: 999;
 }
 
 #top-header .row .navbar-default {

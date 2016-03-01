@@ -1368,4 +1368,53 @@ img {
 
 
 
+.sec-container{ border:1px solid #d7d7d7; background-color:#fff; padding:2em; margin-top:-30px; border-top:none; margin-bottom:-102px;}
+.sec-container .entry-title{/*  border-bottom:1px solid #d7d7d7; padding-bottom:20px; */margin-top:0px;}
+
+.sec-container h2{ background-color: #f0f0f0;
+    border: 1px solid #d7d7d7;
+	border-radius:5px;
+	margin-bottom: 1em;
+    padding: 0.5em;}
+.sec-container strong{font-size: 16px;
+    font-weight: 600; padding-left:15px;}
+.sec-container ul{ margin-left:-5px;}
+.sec-container ul li{ list-style-position:outside; list-style-type:circle; padding:0.3em 0.5em;}
+
+.sec-container form{ border:1px solid #d7d7d7; margin-top:1.5em; padding:1.5em;}
+.sec-container form input{ width:305px;  border:none;border-bottom:2px solid #d7d7d7;}
+
+.sec-container form input[type="file"]{ width:305px;  border:none;}
+
+
+.sec-container form input[type="text"]:focus{border-bottom:2px solid #313131;}
+.sec-container form input[type="email"]:focus{border-bottom:2px solid #313131;}
+
+.sec-container form input[type="submit"]{background: #313131 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff; padding:1em;}
+
+.sec-container form input[type="submit"]:hover{background: #ff3e33 none repeat scroll 0 0;
+    border: 0 none;
+    color: #fff; padding:1em;}
+
+
+.sec-container form textarea{ width:280px; height:4em;  border:none;border-bottom:2px solid #d7d7d7; }
+.sec-container form textarea:focus{border-bottom:2px solid #313131;}
+
+
+.sec-container .wpcf7-form h2{ background-color: #3b78e7;
+    border: medium none;
+    
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1em;
+    margin-top: 0;
+    text-align: center;
+    text-transform: capitalize;}
+
+.sec-container .vc_label{ color:#fff;}
+
+
 

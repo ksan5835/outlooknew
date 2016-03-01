@@ -109,7 +109,10 @@ global $tx_switch;
                                                 <?php echo $tx_switch['section_contact_display_menu']; ?>
                                             </a>
                                         </li>
+										
+										
                                     <?php endif; ?>
+									<li><a data-scroll href="/outlooknew/career" title="Coming Soon..">Career</a></li>
 									<li><a data-scroll href="#" title="Coming Soon..">Webhooo?</a></li>
                                 </ul>
 								

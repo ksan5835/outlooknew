@@ -46,10 +46,11 @@ text-decoration: none;
   border: 1px solid #fff;
 }
 #top-header {
-  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
     padding: 0 0 10px;
     position: absolute;
     text-transform: uppercase;
+	border-bottom:3px solid #ff3e33;
    
     width: 100%;
     z-index: 999;
@@ -156,7 +157,7 @@ text-decoration: none;
   width: 40px;
   height: 80px;
   color: #fff;
-  background: #ff3e33;
+ /* background: #ff3e33;*/
   z-index: 10;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;
@@ -268,26 +269,36 @@ text-decoration: none;
 #feature .block {
   text-align: center;
   cursor: pointer;
-  background: #fff;
-  padding: 20px;
+  background: #313131;
+  padding: 3em 2em;
   margin-bottom: 20px;
-  border: 1px solid #f7f7f7;
-  border-radius: 3px;
+  border-bottom: 3px solid #f0f0f0;
+ 
+  border-radius: 10px;
+
 }
+
+#feature .block:hover{
+  
+    border-bottom: 3px solid #ff3e33;
+}
+
 #feature .block:hover .custom-icon:after {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
   opacity: 1;
+    border-bottom: 3px solid #ff3e33;
+	
 }
 #feature .block h4 {
-  color: #4D4D4D;
+  color: #fff;
   font-weight: 500;
   margin: 16px 0;
 }
 #feature .block p {
-  color: #747474;
+  color: #cdcdcd;
   line-height: 1.4;
 }
 
@@ -402,7 +413,7 @@ text-decoration: none;
   }
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+ font-family: 'Raleway', sans-serif;
   font-size: 14px;
   font-weight: 300;
 }
@@ -418,7 +429,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 h2 {
   font-size: 25px;
@@ -435,7 +446,7 @@ h5 {
 p {
   font-size: 14px;
   line-height: 26px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 img {
   max-width: 100%;
@@ -460,7 +471,7 @@ img {
   color: #ffffff;
 }
 .drop-shadow:after {
-  background: url("../images/shadow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+ /* background: url("../images/shadow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);*/
   bottom: 2px;
   content: " ";
   height: 19px;
@@ -469,6 +480,7 @@ img {
   width: 220px;
 }
 .btn-line a {
+background-color:#ff3e33;
   display: inline-block;
   position: relative;
   padding: 10px 18px;
@@ -538,12 +550,13 @@ img {
 }
 .custom-icon {
   color: #fff;
-  background-color: #f0f0f0;
+  /*background-color: #f0f0f0;*/
   display: inline-block;
   width: 110px;
   height: 110px;
   border-radius: 50%;
   position: relative;
+  margin-bottom:1em;
 }
 .custom-icon img {
   margin-top: 30px;
@@ -570,6 +583,8 @@ img {
   left: -7px;
   padding: 7px;
   pointer-events: none;
+ 
+  
 }
 /*!
  * Switch v1.0 (http://themesgrove.com)
@@ -577,15 +592,24 @@ img {
  * Licensed under MIT
  */
 #team {
-  background: #f9f9f9;
+  background: #f0f0f0;
   border-bottom: 1px solid #dedede;
   border-top: 1px solid #dedede;
   padding: 100px 0;
 }
 #team .thumbnail {
+  padding-top: 30px;
+  text-align: center;
+  border: 0px solid #e9e9e9;
+  border-radius:0;
+   border-bottom: 3px solid #e9e9e9;
+   background-color:#1b1b1b;
+}
+
+#team .thumbnail:hover {
   padding-top: 20px;
   text-align: center;
-  border: 1px solid #e9e9e9;
+  border-bottom: 4px solid #ff3e33;
 }
 #team .thumbnail .caption {
   padding: 10px 20px;
@@ -595,7 +619,7 @@ img {
   margin-top: 26px;
 }
 #team .thumbnail .caption p {
-  color: #555;
+  color: #eee;
   font-size: 15px;
 }
 #team .thumbnail .caption .social-icon {
@@ -758,6 +782,7 @@ img {
 
 #portfolio {
   padding: 100px 0;
+  background-color:#282828;
 }
 #portfolio .portfolio-filter {
   text-align: center;
@@ -805,6 +830,10 @@ img {
 #portfolio .portfolio-container #da-thumbs li .portfolio-buttons a i {
   font-size: 20px;
 }
+
+
+#portfolio h1{ color:#fff;}
+
 .da-thumbs li {
   float: left;
   margin: 5px;
@@ -1094,6 +1123,7 @@ img {
   background: #f6f6f6;
   z-index: 12;
   position: relative;
+  font-family: 'Raleway', sans-serif;
 }
 #blog-body .row {
   padding-top: 0px;
@@ -1356,14 +1386,23 @@ img {
   color: #fff;
   margin-top: 0;
   text-transform: capitalize;
-}
+   background:rgba(0, 0, 0, 0.5);
+  padding:0.3em 0;
+ /* border-bottom:2px solid #ff3e33;*/
+ margin-bottom:0px;
+
+  }
+
 
 #hero-unit .carousel .carousel-caption>p {
   color: #fff;
+   background:rgba(255, 62, 51, 0.5);
+   padding:0.5em;
 }
 
 #hero-unit .carousel .carousel-caption {
   top: 36%;
+
 }
 
 
@@ -1415,6 +1454,9 @@ img {
     text-transform: capitalize;}
 
 .sec-container .vc_label{ color:#fff;}
+
+
+#about .section-title{border-bottom:1px solid #ff3e33; padding-bottom:30px; margin-bottom:60px;}
 
 
 

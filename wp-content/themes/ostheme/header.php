@@ -14,6 +14,9 @@ global $tx_switch;
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
+
+<link href='https://fonts.googleapis.com/css?family=Raleway&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 <!-- bootstrap -->
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/bootstrap.min.css">

@@ -978,19 +978,34 @@ background-color:#ff3e33;
 }
 #contact .contact-form p {
   margin-bottom: 20px;
+  color:#d7d7d7;
 }
 #contact .contact-form input {
   width: 100%;
   height: 35px;
   padding-left: 8px;
   outline: none;
+  border:none;
+  border-bottom:2px solid #eee;
+  background:transparent;
+  color:#fff;
 }
 #contact .contact-form input:focus {
-  border:none;
+    border-bottom:2px solid #ff3e33;
 }
 #contact .contact-form textarea {
   width: 100%;
   height: 140px;
+  background:transparent;
+   border:none;
+    border-bottom:2px solid #eee;
+	 color:#fff;
+	
+}
+#contact .contact-form textarea:focus{
+  
+    border-bottom:2px solid #ff3e33;
+	 
 }
 #contact .contact-form input[type='submit'] {
   color: #fff;
@@ -999,6 +1014,13 @@ background-color:#ff3e33;
   float: right;
   background: #ff3e33;
 }
+
+#contact .contact-form input[type='file'] {
+ 
+  border:0;
+
+}
+
 #contact .form-horizontal {
   margin-top: 30px;
   padding-bottom: 30px;

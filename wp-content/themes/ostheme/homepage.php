@@ -91,7 +91,7 @@
         
         <?php get_template_part( '/sections/section-feature' ); ?>
         <?php get_template_part( '/sections/section-about' ); ?>
-        <?php get_template_part('/sections/section-team') ; ?>
-        <?php get_template_part('/sections/section-portfolio') ; ?>
-        <?php get_template_part('/sections/section-contact') ; ?>
+        <?php //get_template_part('/sections/section-team') ; ?>
+        <?php //get_template_part('/sections/section-portfolio') ; ?>
+        <?php //get_template_part('/sections/section-contact') ; ?>
         <?php get_footer(); ?>

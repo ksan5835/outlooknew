@@ -4,8 +4,10 @@
 */
 
     get_header();
-
+ global $tx_switch;
 ?>
+
+<?php include_once 'header-banner.php' ?>
 
 
         <section id="team">

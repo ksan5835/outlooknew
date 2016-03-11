@@ -77,7 +77,10 @@ global $tx_switch;
                                     </li>
                                     <?php if( $tx_switch['section_feature_display'] ) :?>
                                         <li>
-                                            <a data-scroll href="#feature">
+                                            
+											<?php if ( is_front_page() ) { $urlAccess = "#feature"; } else {  $urlAccess = esc_url( home_url( '/' ))."#feature"; } ?>
+											
+											<a data-scroll href="<?php echo $urlAccess;?>">
                                                 <?php echo $tx_switch['section_feature_menu_text']; ?>    
                                             </a>
                                         </li>
@@ -85,15 +88,17 @@ global $tx_switch;
 
                                     <?php if( $tx_switch['section_about_display'] ) :?>
                                         <li>
-                                            <a data-scroll href="#about">
+                                            <?php if ( is_front_page() ) { $urlAccess = "#about";  } else { $urlAccess = esc_url( home_url( '/' ))."#about"; } ?>
+											
+											<a data-scroll href="<?php echo $urlAccess;?>">
                                                 <?php echo $tx_switch['section_about_us_menu_text']; ?>    
                                             </a>
                                         </li>
                                     <?php endif; ?>
 
-                                    <?php if( $tx_switch['section_team_display'] ) :?>
+                         <?php /*?>           <?php if( $tx_switch['section_team_display'] ) :?>
                                         <li>
-                                            <a data-scroll href="#team">
+                                            <a data-scroll href="<?php echo esc_url( home_url( '/' ) ); ?>#team">
                                                 <?php echo $tx_switch['section_team_display_menu']; ?>
                                             </a>
                                         </li>
@@ -101,24 +106,33 @@ global $tx_switch;
 
                                     <?php if( $tx_switch['section_portfolio_display'] ) :?>
                                         <li>
-                                            <a data-scroll href="#portfolio">
+                                            <a data-scroll href="<?php echo esc_url( home_url( '/' ) ); ?>#portfolio">
                                                 <?php echo $tx_switch['section_portfolio_display_menu']; ?>
                                             </a>
                                         </li>
                                     <?php endif; ?>
                                     <?php if( $tx_switch['section_contact_display'] ) :?>
                                         <li>
-                                            <a data-scroll href="#contact">
+                                            <a data-scroll href="<?php echo esc_url( home_url( '/' ) ); ?>#contact">
                                                 <?php echo $tx_switch['section_contact_display_menu']; ?>
                                             </a>
-                                        </li>
+                                        </li
 										
-										
-                                    <?php endif; ?>
-									<li><a data-scroll href="/outlooknew/career" title="Coming Soon..">Career</a></li>
-									<li><a data-scroll href="#" title="Coming Soon..">Webhooo?</a></li>
-                                </ul>
+                                    <?php endif; ?>	<?php */?>									
+                                
 								
+								<?php 
+								
+									$menu_items = wp_get_nav_menu_items("Top Menu"); 
+									
+									 foreach( $menu_items as $menu_item ) {
+									    
+										echo '<li><a data-scroll href="'.$menu_item->url.'" title="Coming Soon..">'.$menu_item->title.'</a></li>';
+										
+									 }
+								
+								?>
+								</ul>
 								
                             </div><!-- /.navbar-collapse -->
                           </div><!-- /.container-fluid -->
